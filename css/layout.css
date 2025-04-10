@@ -1,0 +1,8 @@
+.container{max-width:1200px;margin:0 auto;padding:20px}
+header{background-color:#fff;padding:20px 0;margin-bottom:30px;box-shadow:0 2px 4px rgba(0,0,0,0.1)}
+nav ul{display:flex;gap:20px}
+nav a{display:block;padding:10px 15px;border-radius:5px}
+nav a:hover{background-color:var(--color-fondo)}
+main{display:grid;grid-template-columns:1fr;gap:30px}
+footer{text-align:center;padding:30px 0;margin-top:50px;background-color:#eee;color:var(--color-texto-secundario);font-size:0.9em}
+@media(min-width:768px){main{grid-template-columns:3fr 1fr}.sidebar{padding-left:20px}}

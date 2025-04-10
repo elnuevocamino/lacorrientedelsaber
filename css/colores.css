@@ -1,0 +1,4 @@
+:root{--color-primario:#FFC107;--color-secundario:#007BFF;--color-terciario:#28A745;--color-fondo:#F8F9FA;--color-texto-principal:#333;--color-texto-secundario:#6C757D;--color-enlace:var(--color-secundario);--color-enlace-hover:#0056b3}
+body{background-color:var(--color-fondo);color:var(--color-texto-principal)}
+a{color:var(--color-enlace)}
+a:hover{color:var(--color-enlace-hover)}

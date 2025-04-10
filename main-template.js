@@ -1,0 +1,3 @@
+async function cargarComponente(url,destinoId){try{const respuesta=await fetch(url);if(!respuesta.ok){throw new Error(`Error al cargar ${url}: ${respuesta.status}`)}
+const html=await respuesta.text();document.getElementById(destinoId).innerHTML=html}catch(error){console.error("No se pudo cargar el componente:",error);document.getElementById(destinoId).innerHTML='<p>Error al cargar el contenido.</p>'}}
+document.addEventListener('DOMContentLoaded',()=>{cargarComponente('header.html','miEncabezado');cargarComponente('footer.html','miPieDePagina')})
